@@ -21,7 +21,7 @@ Datetimes should be interacted with via an API written for humans.
 Maya is mostly built around the headaches and use-cases around parsing datetime data from websites.
 
 
-☤ Basic Usage of Maya
+Basic Usage of Maya
 ---------------------
 
 Behold, datetimes for humans!
@@ -65,7 +65,7 @@ Behold, datetimes for humans!
     >>> rand_day.timezone
     UTC
 
-☤ Why is this useful?
+Why is this useful?
 ---------------------
 
 - All timezone algebra will behave identically on all machines, regardless of system locale.
@@ -77,7 +77,7 @@ Behold, datetimes for humans!
 - Maya never panics, and always carries a towel.
 
 
-☤ What about Delorean, Arrow, & Pendulum?
+What about Delorean, Arrow, & Pendulum?
 -----------------------------------------
 
 Arrow, for example, is a fantastic library, but isn't what I wanted in a datetime library. In many ways, it's better than Maya for certain things. In some ways, in my opinion, it's not.
@@ -87,16 +87,16 @@ I simply desire a sane API for datetimes that made sense to me for all the thing
 I think these projects complement each-other, personally. Maya is great for parsing websites. For example- Arrow supports floors and ceilings and spans of dates, which Maya does not at all.
 
 
-☤ Installing Maya
+Installing Maya
 -----------------
 
 Installation is easy, with pip::
 
     $ pip install maya
 
-✨🍰✨
 
-☤ Like it?
+
+Like it?
 ----------
 
 `Say Thanks <https://saythanks.io/to/kennethreitz>`_!
